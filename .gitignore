@@ -1,0 +1,29 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Bytecode y checkpoints de Python/Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Credenciales y tokens
+.env
+*.key
+secrets.json
+config.local.py
+
+# Modelos y datos pesados descargados en tiempo de ejecución
+*.bin
+*.zst
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
